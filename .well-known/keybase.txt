@@ -1,0 +1,53 @@
+https://keybase.io/jordanscales
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jordanscales.com
+  * I am jordanscales (https://keybase.io/jordanscales) on keybase.
+  * I have a public key ASBoYRZQ8zKT3oR8YUJyW8niemERvBQ9xcxqAeWocugKVAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e77fe1799ed5a9d0508400099a6343a00d1aa57dcde613f4e6fdb26da13b40150a",
+      "host": "keybase.io",
+      "kid": "012068611650f33293de847c6142725bc9e27a6111bc143dc5cc6a01e5a872e80a540a",
+      "uid": "bf094912e4b3cefd829cee311c900d19",
+      "username": "jordanscales"
+    },
+    "merkle_root": {
+      "ctime": 1616018635,
+      "hash": "cdb22b749252ad559a71fb28b294777c70a6fe09649a7836101916f002042ea37b0d0f5eeab40f0ee203f197b8ce0f706080bed39bc1eee04407ab3f9bd0bec9",
+      "hash_meta": "e16b30a6c564fe2c9075e12bda92c055eaff20a7260acc9620f1c5d8db9c96b5",
+      "seqno": 19401556
+    },
+    "service": {
+      "entropy": "Ahp6sUU62Q6VaXZiJjQGyPpz",
+      "hostname": "jordanscales.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1616018648,
+  "expire_in": 504576000,
+  "prev": "152408b480fa313ce6b2e1b38a639b5990991379577a684042c9e803c92fb5fa",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaGEWUPMyk96EfGFCclvJ4nphEbwUPcXMagHlqHLoClQKp3BheWxvYWTESpcCC8QgFSQItID6MTzmsuGzimObWZCZE3lXemhAQsnoA8kvtfrEIFozZrS2cvH1Tr5fo+GGW2R008V/XLU3/2cKLM3JZU34AgHCo3NpZ8RANgZj9g56RGQkl/CDhl5BzwZ96bo45lDo0EhWwF6CgF2A50ZzKXeQQlbsmdWox4SqovF9QeK3nP8MUi4v/MRHCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG3x7H80WsGydO2pRSUBBSFyGf2dzpvdbckk9uUhctB9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jordanscales
