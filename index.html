@@ -91,7 +91,7 @@ body {
 
 					<div style="width:80px;height:20px;" id="UserDataNode0" class="DataPoint=OnlineNow;UserID=6221;"></div>
 
-				<br><br>Last Login: 11/20/2022<br>
+				<br><br>Last Login: 6/19/2023<br>
 			</td>
 		</tr>
 		<tr valign="middle" align="center">
@@ -376,7 +376,44 @@ body {
 
 					I write the most words on twitter (<a href="https://twitter.com/jdan">@jdan</a>) and <a href="https://notes.jordanscales.com">my blog</a>.<br><br>
 
-					<br><br>
+					<div style="position: relative; height: 116px;">
+						<div id="player" style="width: 275px; height: 348px; position: relative; pointer-events: none">
+							<!-- trick webamp to "centering" the player window here -->
+						</div>
+					</div>
+
+					<a href="https://onemoreslice.bandcamp.com/album/crystal-boy">DJ DVD RIP - Crystal Boy</a>
+					&nbsp;<br>
+					&nbsp;<br>
+
+					<script src="https://unpkg.com/webamp@1.4.2/built/webamp.bundle.min.js"></script>
+					<script>
+							const Webamp = window.Webamp;
+							const webamp = new Webamp({
+									initialTracks: [
+											{
+													metaData: {
+															artist: "DJ DVD RIP",
+															title: "crystal bowie full lenght"
+													},
+													url: "/crystal%20bowie%20full%20lenght.m4a",
+													duration: 1.2166667
+											},
+									],
+							});
+
+							webamp.renderWhenReady(document.getElementById("player"));
+					</script>
+					<style>
+						/* hide the playlist and equalizer */
+						#playlist-window, #equalizer-window {
+							display: none !important;
+						}
+
+						#title-bar {
+							pointer-events: none;
+						}
+					</style>
 				</td>
 			</tr>
 			<tr>
